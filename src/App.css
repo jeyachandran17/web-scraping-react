@@ -4,7 +4,6 @@ body{
 
 .site-page{
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     height: 25px;
     width: 50px;
@@ -81,3 +80,40 @@ body{
     width: 70px;
 }
 
+.pagination{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+    
+}
+
+.search{
+    display: flex;
+    height: 25px;
+    width: 300px;
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+}
+
+.not-found-img {
+    min-width: auto;
+    min-height: 90vh;
+}
+
+.not-found {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.not-fount-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15vh;
+    font-size: 25px;
+}
